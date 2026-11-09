@@ -1,6 +1,6 @@
 # 📚 ВАК РБ 2025: Библиографический агент и скилл
 
-[![Стандарт ВАК РБ](https://img.shields.io/badge/Стандарт-ВАК%20РБ%202025%20(Приказ%20№206)-007acc?style=flat-square)](https://vak.gov.by)
+[![Стандарт ВАК РБ](https://img.shields.io/badge/Стандарт-ВАК%20РБ%202025%20(Приказ%20№206)-007acc?style=flat-square)](https://vak.gov.by/ru/bibliographicDescription-749-ru)
 [![Статус](https://img.shields.io/badge/Статус-Актуален%202025%2F2026-success?style=flat-square)](#)
 [![Zero-Dependency](https://img.shields.io/badge/Зависимости-Zero--Dependency-brightgreen?style=flat-square)](#)
 [![Лицензия](https://img.shields.io/badge/Лицензия-MIT-yellow?style=flat-square)](LICENSE)
@@ -122,7 +122,7 @@ curl -fsSL https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/install.
 ---
 
 ## ⚖️ Нормативная база
-Инструкция составлена строго по официальным требованиям: **«Инструкция по оформлению диссертации, автореферата и публикаций по теме диссертации»** Высшей аттестационной комиссии Республики Беларусь (в редакции приказа ВАК РБ от **13 октября 2025 г. № 206**).
+Инструкция составлена строго по официальным требованиям: **[«Инструкция по оформлению диссертации, автореферата и публикаций по теме диссертации»](https://vak.gov.by/ru/bibliographicDescription-749-ru)** Высшей аттестационной комиссии Республики Беларусь (в редакции приказа ВАК РБ от **13 октября 2025 г. № 206**). Официальные образцы библиографического описания опубликованы на сайте ВАК РБ: [vak.gov.by/ru/bibliographicDescription-749-ru](https://vak.gov.by/ru/bibliographicDescription-749-ru).
 
 ---
 *Сделано для студентов, магистрантов, аспирантов, соискателей и научных сотрудников.*
