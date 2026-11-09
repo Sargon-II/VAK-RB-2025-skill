@@ -21,7 +21,7 @@
 > Проверено на актуальном модельном ряде (2026):  
 > - **Anthropic:** Claude Opus 5 / 5.5, Claude Sonnet 5 / 5.5, Claude Fable  
 > - **OpenAI:** GPT-5.5, GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna, o3 / o4  
-> - **Google:** Gemini 3.8 Flash, Gemini 4 (Argon, Carbon)  
+> - **Google:** Gemini 3.8 Flash, Gemini 4 Argon  
 > - **DeepSeek:** DeepSeek V4, DeepSeek V4.1-Flash  
 > - **Alibaba:** Qwen 3.8 Max, Qwen 3.7 Plus  
 > - **Moonshot:** Kimi 3, Kimi 3.1  
