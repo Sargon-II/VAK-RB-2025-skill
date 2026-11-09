@@ -53,10 +53,13 @@
 * В блок **Knowledge** прикрепите `RULES.md` и `vak_rb_2025_examples.json`.
 * Включите **Web Search**, чтобы модель могла верифицировать недостающие страницы и DOI.
 
-### 3. Google Gemini (Раздел Gems)
-* Откройте **Gem Manager** → **New Gem** (Создать Gem).
-* Назовите Gem: `Библиограф ВАК РБ 2025` (на базе Gemini 3.8 Flash или Gemini 4 Argon).
-* В поле инструкций вставьте содержимое `SKILL.md`, а в базу знаний загрузите файлы правил.
+### 3. Google Gemini (Раздел Skills и Gems)
+* **Прямой раздел скиллов:** перейдите по ссылке [gemini.google.com/customize/skills](https://gemini.google.com/customize/skills) (или меню **Настройки / Customize** → **Skills**).
+* Нажмите **Add Skill** (Добавить скилл) или откройте **Gem Manager** → **New Gem**:
+  * **Название:** `Библиограф ВАК РБ 2025` (рекомендуемые модели: Gemini 3.8 Flash, Gemini 4 Argon).
+  * **Instructions:** скопируйте и вставьте текст из файла [`SKILL.md`](vak-rb-citations/SKILL.md).
+  * **Knowledge / Files:** прикрепите файлы `RULES.md` и `vak_rb_2025_examples.json`.
+* Теперь скилл активируется автоматически в диалогах Gemini при запросах на библиографию.
 
 ### 4. Kimi.ai (Moonshot / Kimi+)
 * Создайте профиль или постоянную сессию **Kimi+** (на базе Kimi 3 / 3.1).
