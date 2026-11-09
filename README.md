@@ -82,12 +82,12 @@
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025-skill/main/install.ps1 | iex
 ```
 
 **macOS / Linux (Bash):**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025-skill/main/install.sh | bash
 ```
 
 ### Ручное размещение папки:

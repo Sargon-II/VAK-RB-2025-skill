@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-REPO_URL="https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/vak-rb-citations"
+REPO_URL="https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025-skill/main/vak-rb-citations"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" 2>/dev/null && pwd || true)"
 LOCAL_SOURCE="$SCRIPT_DIR/vak-rb-citations"
 FILES=("SKILL.md" "RULES.md" "vak_rb_2025_examples.json")

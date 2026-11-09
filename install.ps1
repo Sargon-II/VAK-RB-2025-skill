@@ -2,7 +2,7 @@
 param (
     [ValidateSet("claude", "antigravity", "cursor", "all")]
     [string]$Target = "all",
-    [string]$RepoUrl = "https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/vak-rb-citations",
+    [string]$RepoUrl = "https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025-skill/main/vak-rb-citations",
     [switch]$Global = $true
 )
 
