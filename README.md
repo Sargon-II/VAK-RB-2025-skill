@@ -17,8 +17,14 @@
 
 ## ⚡ Способ 1. Самый быстрый: закинуть архив в любой чат
 
-> **Работает в любых чатах:** DeepSeek, Claude, ChatGPT, Google Gemini, Qwen, Kimi, Perplexity, Mistral.  
-> Проверено на актуальном модельном ряде: **Claude 3.7 / Claude 4, GPT-5 / GPT-4.5 / o3, DeepSeek V3 / R1 / V4, Gemini 2.5 / Gemini 3, Qwen 2.5 / 3, Kimi**.
+> **Работает в любых современных веб-чатах:** DeepSeek, Claude, ChatGPT, Google Gemini, Qwen, Kimi, Perplexity.  
+> Проверено на актуальном модельном ряде (2026):  
+> - **Anthropic:** Claude Opus 5 / 5.5, Claude Sonnet 5 / 5.5, Claude Fable  
+> - **OpenAI:** GPT-5.5, GPT-6 Astra, GPT-6.1 Sol, GPT-6 Luna, o3 / o4  
+> - **Google:** Gemini 3.8 Flash, Gemini 4 (Argon, Carbon)  
+> - **DeepSeek:** DeepSeek V4, DeepSeek V4.1-Flash  
+> - **Alibaba:** Qwen 3.8 Max, Qwen 3.7 Plus  
+> - **Moonshot:** Kimi 3, Kimi 3.1  
 
 Вам **не нужно ничего распаковывать или устанавливать**:
 
@@ -37,23 +43,23 @@
 Если вы хотите подключить скилл один раз и пользоваться им постоянно:
 
 ### 1. Claude.ai (Раздел Skills / Projects)
-* Откройте меню **Skills** или создайте проект через **Projects** → **Create Project**.
+* Откройте меню **Skills** или создайте проект через **Projects** → **Create Project** (на базе моделей Claude Sonnet 5 / 5.5 или Opus 5 / 5.5).
 * В блоке **Knowledge** загрузите файлы из папки `vak-rb-citations/` (`RULES.md` и `vak_rb_2025_examples.json`).
 * В поле **Instructions** скопируйте инструкцию из [`SKILL.md`](vak-rb-citations/SKILL.md).
 
 ### 2. ChatGPT (Раздел Skills / Custom GPTs)
-* Откройте **Explore GPTs** → **+ Create** → вкладка **Configure**.
+* Откройте **Explore GPTs** → **+ Create** → вкладка **Configure** (рекомендуются модели GPT-5.5, GPT-6.1 Sol / Astra).
 * В поле **Instructions** вставьте текст из `SKILL.md`.
 * В блок **Knowledge** прикрепите `RULES.md` и `vak_rb_2025_examples.json`.
 * Включите **Web Search**, чтобы модель могла верифицировать недостающие страницы и DOI.
 
 ### 3. Google Gemini (Раздел Gems)
 * Откройте **Gem Manager** → **New Gem** (Создать Gem).
-* Назовите Gem: `Библиограф ВАК РБ 2025`.
+* Назовите Gem: `Библиограф ВАК РБ 2025` (на базе Gemini 3.8 Flash или Gemini 4 Argon).
 * В поле инструкций вставьте содержимое `SKILL.md`, а в базу знаний загрузите файлы правил.
 
 ### 4. Kimi.ai (Moonshot / Kimi+)
-* Создайте профиль или постоянную сессию **Kimi+**.
+* Создайте профиль или постоянную сессию **Kimi+** (на базе Kimi 3 / 3.1).
 * Прикрепите архив `vak-rb-citations-2025.zip` и задайте системную роль из `SKILL.md`.
 
 ### 5. 🔍 Perplexity AI (Конфигурация через Space)
