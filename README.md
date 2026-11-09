@@ -1,83 +1,69 @@
-<div align="center">
-
 # 📚 ВАК РБ 2025: Библиографический агент и скилл
-### Автоматическое оформление библиографии и списков источников по стандартам Республики Беларусь
 
-[![ВАК РБ Редакция](https://img.shields.io/badge/ВАК_РБ-Приказ_№206_(13.10.2025)-007acc?style=for-the-badge&logo=googledocs&logoColor=white)](https://vak.gov.by)
-[![Статус](https://img.shields.io/badge/Статус-Актуален_2025%2F2026-success?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
-[![Пакет](https://img.shields.io/badge/Установка-Zero--Dependency-brightgreen?style=for-the-badge&logo=speedtest&logoColor=white)](#)
-[![Лицензия](https://img.shields.io/badge/Лицензия-MIT-yellow?style=for-the-badge)](LICENSE)
+[![Стандарт ВАК РБ](https://img.shields.io/badge/Стандарт-ВАК%20РБ%202025%20(Приказ%20№206)-007acc?style=flat-square)](https://vak.gov.by)
+[![Статус](https://img.shields.io/badge/Статус-Актуален%202025%2F2026-success?style=flat-square)](#)
+[![Zero-Dependency](https://img.shields.io/badge/Зависимости-Zero--Dependency-brightgreen?style=flat-square)](#)
+[![Лицензия](https://img.shields.io/badge/Лицензия-MIT-yellow?style=flat-square)](LICENSE)
 
-<br/>
+[![Агенты](https://img.shields.io/badge/CLI-Claude%20Code%20%7C%20Antigravity%20%7C%20Cursor-6B4FBB?style=flat-square)](#)
+[![Веб-ИИ](https://img.shields.io/badge/Web%20AI-ChatGPT%20%7C%20Claude%20%7C%20Gemini%20%7C%20Perplexity%20%7C%20Kimi%20%7C%20DeepSeek-orange?style=flat-square)](#)
+[![Аудитория](https://img.shields.io/badge/Для-Студентов%20%7C%20Аспирантов%20%7C%20Учёных-blueviolet?style=flat-square)](#)
 
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Supported-6B4FBB?style=flat-square&logo=anthropic&logoColor=white)](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code)
-[![Antigravity](https://img.shields.io/badge/Google_Antigravity-Native-4285F4?style=flat-square&logo=google&logoColor=white)](#)
-[![Cursor](https://img.shields.io/badge/Cursor_IDE-Ready-000000?style=flat-square&logo=cursor&logoColor=white)](#)
-[![ChatGPT](https://img.shields.io/badge/ChatGPT_Web-Ready-74aa9c?style=flat-square&logo=openai&logoColor=white)](https://chatgpt.com)
-[![Claude Web](https://img.shields.io/badge/Claude.ai-Ready-D97706?style=flat-square&logo=anthropic&logoColor=white)](https://claude.ai)
-[![Gemini](https://img.shields.io/badge/Gemini_Web-Ready-1A73E8?style=flat-square&logo=googlegemini&logoColor=white)](https://gemini.google.com)
-[![Perplexity](https://img.shields.io/badge/Perplexity-Space_Config-20808D?style=flat-square&logo=perplexity&logoColor=white)](https://perplexity.ai)
-[![Kimi](https://img.shields.io/badge/Kimi_Moonshot-Ready-FF6A00?style=flat-square)](#)
-
-<p align="center">
-  <b>Универсальный ИИ-скилл для оформления списков использованных источников диссертаций, авторефератов и научных статей.</b><br/>
-  Определяет тип источника, восстанавливает недостающие метаданные (страницы, тома, DOI) и собирает библиографическую запись строго по официальной базе эталонов.
-</p>
-
-[⚡ Быстрый старт (Кинуть архив)](#-способ-1-самый-простой-просто-скинуть-архив-в-чат) • [🌐 Веб-версии нейросетей](#-способ-2-веб-версии-и-разделы-skills--projects) • [💻 Терминал и IDE](#-способ-3-cli-агенты-claude-code-antigravity-cursor) • [⭐ Форк и участие](#-форкните-репозиторий-чтобы-скилл-заметили)
-
-</div>
+> **Универсальный инструмент для автоматического оформления библиографических списков и ссылок по правилам ВАК Республики Беларусь (редакция от 13.10.2025, приказ № 206).**  
+> Сделано для **студентов** (дипломные, курсовые работы, научные статьи), **магистрантов**, **аспирантов**, **соискателей** и **научных сотрудников**.  
+> Умеет распознавать более 50 типов источников, подбирать пунктуационную сетку ВАК, восстанавливать недостающие данные (страницы, тома, DOI) и собирать идеальную библиографическую запись.
 
 ---
 
-## ⚡ Способ 1. Самый простой: просто скинуть архив в чат (без распаковки!)
+## ⚡ Способ 1. Самый быстрый: закинуть архив в любой чат
 
-> **Подходит для любых нейросетей:** DeepSeek, ChatGPT, Claude, Google Gemini, Qwen, Kimi, Mistral.
+> **Работает в любых чатах:** DeepSeek, Claude, ChatGPT, Google Gemini, Qwen, Kimi, Perplexity, Mistral.  
+> Проверено на актуальном модельном ряде: **Claude 3.7 / Claude 4, GPT-5 / GPT-4.5 / o3, DeepSeek V3 / R1 / V4, Gemini 2.5 / Gemini 3, Qwen 2.5 / 3, Kimi**.
 
-Вам **не нужно** ничего распаковывать, настраивать или запускать скрипты:
+Вам **не нужно ничего распаковывать или устанавливать**:
 
-1. Скачайте готовый архив [**`vak-rb-citations-2025.zip`**](vak-rb-citations-2025.zip) из этого репозитория.
-2. Откройте любой диалог с нейросетью.
-3. **Перетащите архив `.zip` прямо в поле ввода чата** (или прикрепите через значок скрепки 📎).
-4. Напишите:
-   > *«Оформи следующий список литературы строго по правилам ВАК Беларуси 2025 из прикрепленного архива: [ваш список]»*
+1. Скачайте файл [**`vak-rb-citations-2025.zip`**](vak-rb-citations-2025.zip) из этого репозитория.
+2. Перетащите архив `.zip` прямо в поле ввода чата вашей нейросети (или нажмите на скрепку 📎 и прикрепите архив).
+3. Напишите запрос:
+   > *«Оформи список литературы строго по правилам ВАК Беларуси 2025 из прикрепленного архива:*  
+   > *[вставьте сюда ваш черновой список или отдельные ссылки]»*
 
-*Современные модели (Claude 3.5/3.7, GPT-4o, DeepSeek V3/R1, Gemini 1.5/2.0) автоматически распаковывают zip-архив, считывают базу образцов и выдают эталонный результат.*
+*Модели с поддержкой анализа файлов автоматически извлекают базу правил `RULES.md` и эталоны `vak_rb_2025_examples.json`, форматируя источники в строгом соответствии с приказом № 206.*
 
 ---
 
-## 🌐 Способ 2. Веб-версии: подключение через разделы Skills, Gems и Projects
+## 🌐 Способ 2. Веб-интерфейсы: разделы Skills, Gems, Projects и Spaces
 
-Если вы хотите, чтобы скилл был доступен всегда в один клик без повторной отправки файлов:
+Если вы хотите подключить скилл один раз и пользоваться им постоянно:
 
 ### 1. Claude.ai (Раздел Skills / Projects)
-1. В меню слева перейдите в **Skills** или откройте **Projects** → **Create Project**.
-2. В блоке **Knowledge** загрузите файлы из папки `vak-rb-citations/` (`RULES.md` и `vak_rb_2025_examples.json`).
-3. В **Instructions** (Инструкции) скопируйте текст из файла `SKILL.md`.
+* Откройте меню **Skills** или создайте проект через **Projects** → **Create Project**.
+* В блоке **Knowledge** загрузите файлы из папки `vak-rb-citations/` (`RULES.md` и `vak_rb_2025_examples.json`).
+* В поле **Instructions** скопируйте инструкцию из [`SKILL.md`](vak-rb-citations/SKILL.md).
 
 ### 2. ChatGPT (Раздел Skills / Custom GPTs)
-1. Нажмите **Explore GPTs** → **+ Create** (Создать) → вкладка **Configure**.
-2. В поле **Instructions** вставьте содержимое `SKILL.md`.
-3. В блок **Knowledge** перетащите файлы `RULES.md` и `vak_rb_2025_examples.json`.
-4. Включите галочку **Web Search** (для автоматического поиска DOI и страниц через WorldCat и каталоги издательств).
+* Откройте **Explore GPTs** → **+ Create** → вкладка **Configure**.
+* В поле **Instructions** вставьте текст из `SKILL.md`.
+* В блок **Knowledge** прикрепите `RULES.md` и `vak_rb_2025_examples.json`.
+* Включите **Web Search**, чтобы модель могла верифицировать недостающие страницы и DOI.
 
 ### 3. Google Gemini (Раздел Gems)
-1. Откройте **Gem Manager** (Менеджер Gems) → **New Gem** (Создать Gem).
-2. Назовите Gem: `Библиограф ВАК РБ 2025`.
-3. В поле инструкций вставьте `SKILL.md`, а в базу знаний Gem прикрепите файлы правил.
+* Откройте **Gem Manager** → **New Gem** (Создать Gem).
+* Назовите Gem: `Библиограф ВАК РБ 2025`.
+* В поле инструкций вставьте содержимое `SKILL.md`, а в базу знаний загрузите файлы правил.
 
 ### 4. Kimi.ai (Moonshot / Kimi+)
-1. В интерфейсе Kimi создайте постоянную сессию или профиль **Kimi+**.
-2. Прикрепите архив `vak-rb-citations-2025.zip` и задайте системный промпт из `SKILL.md`.
+* Создайте профиль или постоянную сессию **Kimi+**.
+* Прикрепите архив `vak-rb-citations-2025.zip` и задайте системную роль из `SKILL.md`.
 
-### 5. 🔍 Perplexity AI (Специальная конфигурация Space)
-В Perplexity поиск и форматирование настраиваются через пространство **Spaces**:
+### 5. 🔍 Perplexity AI (Конфигурация через Space)
+В Perplexity интеграция настраивается через выделенное пространство **Spaces**:
 1. Перейдите в **Library** → **Spaces** → **Create Space**.
-2. В настройках пространства (**Space Settings**):
-   * **AI Instructions:** вставьте текст из `SKILL.md`.
+2. В параметрах пространства:
+   * **AI Instructions:** вставьте промпт из `SKILL.md`.
    * **Files:** загрузите `RULES.md` и `vak_rb_2025_examples.json`.
    * **Search Focus:** выберите **Academic** или **All Web**.
-3. *Преимущество:* Perplexity сразу выполняет живой поиск по академическим базам, проверяет точные страницы статей/монографий и выводит их в разметке ВАК РБ.
+3. *Результат:* Perplexity совмещает веб-поиск по каталогам (WorldCat, РНБ, elibrary, crossref) и сразу упаковывает найденные метаданные в разметку ВАК РБ 2025.
 
 ---
 
@@ -95,8 +81,8 @@ irm https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/install.ps1 | i
 curl -fsSL https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/install.sh | bash
 ```
 
-### Ручное копирование:
-Скопируйте папку `vak-rb-citations/` в каталог вашей среды:
+### Ручное размещение папки:
+Скопируйте директорию `vak-rb-citations/` в каталог конфигурации:
 * **Claude Code:** `~/.claude/skills/vak-rb-citations/`
 * **Antigravity:** `~/.gemini/config/skills/vak-rb-citations/`
 * **Cursor:** `~/.cursor/skills/vak-rb-citations/`
@@ -104,39 +90,39 @@ curl -fsSL https://raw.githubusercontent.com/Sargon-II/VAK-RB-2025/main/install.
 
 ---
 
-## 🌟 Форкните репозиторий, чтобы скилл заметили!
+## 🛠️ Архитектура форка: на что и как можно адаптировать этот репозиторий
 
-Чтобы помочь развитию инструмента для русскоязычного академического сообщества:
+Этот репозиторий спроектирован как модульная основа (*Zero-Dependency skill template*). Вы можете форкнуть его под следующие задачи:
 
-1. **Поставьте Star ⭐ и сделайте Fork 🍴** (кнопки в правом верхнем углу страницы):
-   * Это повысит видимость скилла в глобальном поиске GitHub.
-   * Позволит каталогам открытых ИИ-скиллов (*Awesome-Agent-Skills*, *Anthropic Skills*, *Antigravity Skills*) проиндексировать его.
-2. **Адаптируйте под свой совет или вуз:**
-   * Сделав форк, вы можете добавить специфические требования вашего диссертационного совета (БГУ, БНТУ, БГЭУ, Академия наук) или адаптировать базу под ГОСТ / ВАК РФ.
-3. **Pull Requests приветствуются:**
-   * Если вы добавили редкий тип источника (депонированная рукопись, редкий патент, архивное дело), отправьте PR — сделаем базу максимально полной для всех аспирантов и исследователей!
+1. **Адаптация под стандарты конкретного вуза или кафедры:**
+   * Вузовские методички по оформлению дипломных и курсовых работ (БГУ, БНТУ, БГЭУ, БГУИР, ГрГУ, ГГУ, ВГУ) часто имеют локальные особенности (оформление приложений, титулов, ссылок на ГОСТ 7.1 / 7.0.5). Достаточно скорректировать примеры в `vak_rb_2025_examples.json`.
+2. **Форк под стандарты ВАК РФ / ГОСТ Р 7.0.5-2008 / ГОСТ 7.1-2003:**
+   * Заменив базу шаблонов на российские или международные нормативы (APA 7, Chicago, Harvard, MLA), вы получаете готовый библиографический агент для других юрисдикций.
+3. **Интеграция в автономные агентные стеки:**
+   * Скилл готов к прямому подключению как tool/rulebook в **Claude Code**, **Google Antigravity**, **OpenCode**, **Aider**, **CrewAI**, **AutoGen** или **LangChain/LlamaIndex**.
+4. **Создание вузовского Telegram-бота или микросервиса нормоконтроля:**
+   * На базе этого репозитория можно поднять FastAPI/Python-сервис или Telegram-бота для СНО (Студенческого научного общества) или кафедры, который будет принимать у студентов списки литературы и возвращать отформатированные по ВАК тексты с логом правок.
 
 ---
 
-## 📁 Структура пакета
+## 📁 Содержимое репозитория
 
 ```text
 ├── vak-rb-citations/             # Автономный скилл (Zero-Dependency)
 │   ├── SKILL.md                  # Точка входа: триггеры, инструкции
-│   ├── RULES.md                  # Алгоритм классификации и правила оформления
+│   ├── RULES.md                  # Универсальный алгоритм классификации и правила
 │   └── vak_rb_2025_examples.json # База из ~120 официальных образцов (50 категорий)
-├── install.ps1                   # Инсталлятор для Windows
-├── install.sh                    # Инсталлятор для macOS / Linux
-├── vak-rb-citations-2025.zip     # Готовый архив для вставки в веб-чаты
+├── install.ps1                   # Скрипт установки для Windows
+├── install.sh                    # Скрипт установки для macOS / Linux
+├── vak-rb-citations-2025.zip     # Готовый архив для загрузки в веб-чаты
+├── LICENSE                       # Лицензия MIT
 └── README.md
 ```
 
 ---
 
-## ⚖️ Первоисточник стандарта
-Справочник составлен строго на основе официального нормативного документа: **«Инструкция по оформлению диссертации, автореферата и публикаций по теме диссертации»** Высшей аттестационной комиссии Республики Беларусь (в редакции приказа ВАК РБ от **13 октября 2025 г. № 206**).
+## ⚖️ Нормативная база
+Инструкция составлена строго по официальным требованиям: **«Инструкция по оформлению диссертации, автореферата и публикаций по теме диссертации»** Высшей аттестационной комиссии Республики Беларусь (в редакции приказа ВАК РБ от **13 октября 2025 г. № 206**).
 
 ---
-<div align="center">
-  <b>Сделано для исследователей, аспирантов и научных сотрудников.</b>
-</div>
+*Сделано для студентов, магистрантов, аспирантов, соискателей и научных сотрудников.*
